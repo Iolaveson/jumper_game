@@ -5,7 +5,7 @@ class Jumper:
     '''Creates and returns the main character
     '''
     def __init__(self):
-        self.parachute = ['''
+        self._parachute = ['''
                          __
                         |  |
                         \  /
@@ -43,7 +43,7 @@ class Jumper:
         ]
 
     def set_parachute(self):
-        self.parachute.pop(0)
+        self._parachute.pop(0)
         
     def get_parachute(self):
-        return self.parachute[0]
+        return self._parachute[0]

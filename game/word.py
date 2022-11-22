@@ -5,10 +5,7 @@ class Word:
     def __init__(self):
         _words = ['cart', 'cart', 'cart',]
         self._word = random.choice(_words)
-
-    def _create_word(self):
         #picks the word for the game ['cart','tank','bowl','door','cake','part']
-        self._words = ['cart', 'cart', 'cart',]
 
     def _check_guess(self, guess):
         # adds letters to a list if correct
